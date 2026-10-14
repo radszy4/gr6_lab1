@@ -3,12 +3,38 @@
 
 #include <iostream>
 using namespace std;
-
-int main()
+int main() //kod 01_01
 {
-    cout << "Hello World!\n";
-    cout << "Hello World!\n";
+	//Zad.1
+	cout << "1\tRSRSRSRS\t  RSRSRSRS" << endl;
+	cout << "2\tRS\tRS\tRS" << endl;
+	cout << "3\tRSRSRSRS\tRS" << endl;
+	cout << "4\tRS  RS\t\t  RSRSRS" << endl;
+	cout << "5\tRS    RS\t\tRS" << endl;
+	cout << "6\tRS\tRS\tRSRSRSRS" << endl;
+
+	//Zad.2
+	cout << "\t*" << endl;
+	cout << "\t* *" << endl;
+
+	//Zad.4.1
+	int a;
+	int b;
+	int c;
+	int d;
+	cin >> a >> b;
+	c = a + b;
+	d = a * b;
+	cout << "Suma: " << c  << endl;
+	cout << "Iloczyn: " << d << endl;
+
+
+
+
+
+	return 0; //opcjonalne w main
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
