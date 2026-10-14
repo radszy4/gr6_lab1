@@ -14,7 +14,7 @@ int main() //kod 01_01
 	cout << "6\tRS\tRS\tRSRSRSRS" << endl;
 
 	//Zad.2
-	cout << "\t*" << endl;
+	cout << "\t *" << endl;
 	cout << "\t* *" << endl;
 
 	//Zad.4.1
